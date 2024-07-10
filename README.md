@@ -1,18 +1,27 @@
-## Getting Started
+## Requisitos
+Java Development Kit (JDK) instalado.
+Um ambiente de desenvolvimento integrado (IDE) ou um editor de texto para escrever o código.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Como Compilar e Executar
+Abra um terminal.
+Navegue até o diretório onde o arquivo *App.java* está localizado. 
+Compile o código usando o comando:
+sh
+ ```
+javac App.java
+```
+Execute o programa usando o comando:
+ ```
+javac App.java
+```
 
-## Folder Structure
+Uso
+Para executar o programa, compile a classe App e execute o método main. O programa solicitará as entradas do usuário e exibirá a classificação do jogador.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Exemplo de Execução
+```
+Digite o nome do Jogador: João
+Digite a quantidade de vitórias desse Jogador: 30
+Digite a quantidade de derrotas desse Jogador: 10
+O herói João tem a saldo de vitórias de: 20 e está na classificação: Bronze
+```
